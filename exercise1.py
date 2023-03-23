@@ -1,3 +1,3 @@
-name = "Matt"
-mubashi = "my love"
-print("Hello", name,"!")
+name = input("please enter your name")
+z = "Hello, " + (((name != "Mubashir") * name) or ((name == "Mubashir") * "My Love")) + "!"
+print(z)
